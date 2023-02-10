@@ -16,12 +16,12 @@ logging.level:
   # org.springframework.web.reactive: INFO
   # reactor.ipc.netty: INFO
   # reactor.netty: INFO
-springdoc:
-  swagger-ui.path: "/swagger-ui.html"
-  api-docs.path: "/api-docs"
+# springdoc:
+#   swagger-ui.path: "/swagger-ui.html"
+#   api-docs.path: "/api-docs"
 
 sfdc:
-  authserviceURL: "http://localhost:52880/api"
+  authserviceURL: "http://localhost:8080/authservice/api"
 
 ---
 spring:
